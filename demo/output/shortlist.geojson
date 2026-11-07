@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "demo-a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.877,
+          45.407
+        ]
+      },
+      "properties": {
+        "title": "Fictional Centro room",
+        "monthlyCost": 550,
+        "currency": "EUR",
+        "locationPrecision": "neighborhood",
+        "synthetic": true,
+        "source": "https://example.com/rooms/a",
+        "openStreetMap": "https://www.openstreetmap.org/?mlat=45.407&mlon=11.877#map=14/45.407/11.877"
+      }
+    }
+  ]
+}

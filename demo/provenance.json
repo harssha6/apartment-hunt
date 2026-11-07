@@ -1,0 +1,25 @@
+{
+  "runAt": "2026-11-07T16:54:26Z",
+  "runBy": "GPT-6.1 Sol in Codex / T3 Code",
+  "method": "Agent read SKILL.md and the fictional source table, normalized the quoted evidence into typed fields, then ran demo/scripts/process.py to persist computed outputs. This is a present portable-skill demonstration, not a historical Grokbot execution.",
+  "sourceSha256": {
+    "SKILL.md": "db5a303c30d8e463e8a6c8261c38923bb0d0d99584425c42fc67afbaf63c4a57",
+    "examples/padova-demo.md": "107e2f62c7ff2f6d25f8d44257acc9bbd8fda55ddc83cf28db91167ec6b905b6",
+    "examples/demo-shortlist.geojson": "111cfc9427b165126d48b995e8f6cae33a93325b0fd78bc5921d13acde7a3ea3",
+    "demo/input/normalized.json": "7cd50193a3313557f25b67bf90dc1b36cb5c68b9799c61c5ec754785cf934219"
+  },
+  "sourceURLs": "example.com URLs identify fictional fixtures; they were not browsed.",
+  "credit": "Apartment hunting with Grokbot. Grokbot assisted the original Padova search; the portable skill is a later extraction.",
+  "limits": [
+    "No source browsing, live search, messages, availability verification or applications.",
+    "Only one approximate neighborhood coordinate is source-supported. The map in the video is schematic, not a cartographic map.",
+    "Unstated bills, deposits and fees stay null. Known move-in cash is a minimum, not a complete quote."
+  ],
+  "music": {
+    "file": "house-original.mp3",
+    "sha256": "d0a355b9eaf1af9c5d74589215a6b74b7a8e5f43e4edddbf60bd6420cca4e2a1",
+    "origin": "Existing ElevenLabs Music v2.5 output via Higgsfield; job 66d512b0-e91e-4f08-9b3d-0e00b496926c",
+    "reuse": "Existing source reused; no generation or purchase in this run. Trim, loudness normalization, fades, AAC encoding.",
+    "limits": "No listening, rights-clearance, similarity or content-ID claim."
+  }
+}
