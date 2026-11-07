@@ -1,0 +1,82 @@
+{
+  "search": {
+    "city": "Padova",
+    "currency": "EUR",
+    "budgetMonthly": 600,
+    "hardRequirements": [
+      "private room"
+    ]
+  },
+  "checkedAt": "2026-11-07T16:54:26Z",
+  "listings": [
+    {
+      "id": "demo-a",
+      "title": "Centro",
+      "source": "https://example.com/rooms/a",
+      "evidence": "Private room in Centro. Rent EUR 470/month plus fixed EUR 80/month covering all bills. Refundable deposit EUR 940. Approximate neighborhood coordinates: 45.407, 11.877.",
+      "rentMonthly": 470,
+      "requiredBillsMonthly": 80,
+      "allRequiredBillsKnown": true,
+      "refundableDeposit": 940,
+      "oneTimeFees": null,
+      "privateRoom": true,
+      "coordinates": [
+        11.877,
+        45.407
+      ],
+      "locationPrecision": "neighborhood",
+      "question": "Confirm availability and viewing details.",
+      "city": "Padova",
+      "neighborhood": "Centro",
+      "moveInDate": null,
+      "occupancy": null,
+      "restrictions": null,
+      "contacted": false,
+      "userNotes": []
+    },
+    {
+      "id": "demo-b",
+      "title": "Arcella",
+      "source": "https://example.com/rooms/b",
+      "evidence": "Private room in Arcella. Rent EUR 430/month; \"bills extra\" with no amount. Deposit not stated. No supported location beyond the neighborhood name.",
+      "rentMonthly": 430,
+      "requiredBillsMonthly": null,
+      "allRequiredBillsKnown": false,
+      "refundableDeposit": null,
+      "oneTimeFees": null,
+      "privateRoom": true,
+      "coordinates": null,
+      "locationPrecision": null,
+      "question": "What is the total recurring bill amount and deposit?",
+      "city": "Padova",
+      "neighborhood": "Arcella",
+      "moveInDate": null,
+      "occupancy": null,
+      "restrictions": null,
+      "contacted": false,
+      "userNotes": []
+    },
+    {
+      "id": "demo-c",
+      "title": "Portello",
+      "source": "https://example.com/rooms/c",
+      "evidence": "Private room in Portello. Rent EUR 520/month plus EUR 110/month covering all bills. No one-time fee or deposit stated.",
+      "rentMonthly": 520,
+      "requiredBillsMonthly": 110,
+      "allRequiredBillsKnown": true,
+      "refundableDeposit": null,
+      "oneTimeFees": null,
+      "privateRoom": true,
+      "coordinates": null,
+      "locationPrecision": null,
+      "question": "Does the landlord offer a lower all-in price?",
+      "city": "Padova",
+      "neighborhood": "Portello",
+      "moveInDate": null,
+      "occupancy": null,
+      "restrictions": null,
+      "contacted": false,
+      "userNotes": []
+    }
+  ]
+}

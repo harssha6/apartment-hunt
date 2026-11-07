@@ -1,0 +1,33 @@
+{
+  "video": "apartment-hunt.mp4",
+  "sha256": "77745df57ff43e7b9752eef16cd2bcf50bea1b7b48c80ba82eb4fe424a6a0989",
+  "sizeBytes": 1299183,
+  "durationSeconds": 28.733333,
+  "audio": "AAC / 48 kHz / stereo",
+  "faststart": true,
+  "fullDecode": "pass",
+  "integratedLUFS": -16.25,
+  "truePeakDbTP": -4.33,
+  "visualReview": {
+    "route": "Madeye vision API",
+    "model": "claude-haiku-4-5",
+    "verdict": "PASS",
+    "sampleSeconds": [
+      1.6,
+      5.1,
+      9.7,
+      15.3,
+      19.3,
+      22.6,
+      27.3
+    ],
+    "additionalCoverage": "1 fps contact sheet extracted from final encoded MP4",
+    "privacy": true,
+    "readability": true,
+    "story": true,
+    "disclosure": true,
+    "limits": "Still frames cannot prove continuous motion or audio quality. No listening claimed."
+  },
+  "fixtureChecks": "Deterministic output freshness, source hashes, cost/null/deposit invariants, and parity with the existing approximate GeoJSON pin passed.",
+  "videoFormat": "H.264 / yuv420p / 1080x1080 / 30 fps / 862 frames"
+}

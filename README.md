@@ -14,6 +14,8 @@ Ask: `Use apartment-hunt to compare these rooms against my all-in monthly budget
 
 [Three fictional Padova listings and the expected shortlist](examples/padova-demo.md). A EUR 550 all-in room fits a fictional EUR 600 budget. A EUR 430 room with unknown bills stays unconfirmed. A EUR 630 room is over budget. [GeoJSON example](examples/demo-shortlist.geojson) includes one approximate neighborhood pin.
 
+A [reproducible launch demo](demo/README.md) processes those fictional sources into persisted Markdown, JSON and GeoJSON. Its graphical workflow presentation makes missing bills, separate deposits and approximate pins explicit.
+
 This is an instruction skill. It uses the browsing and file tools available to your agent; it does not bundle a scraper, browser session, tracker backend or landlord messaging service. The original Padova Rooms app is separate and remains Padova-specific.
 
 MIT licensed.
